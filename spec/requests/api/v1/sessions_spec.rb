@@ -20,7 +20,11 @@ RSpec.describe 'Sessions', type: :request do
           'name' => user.name,
           'nickname' => user.nickname,
           'image' => nil,
-          'type' => 'user'
+          'gender' => 'Male',
+          'age' => 14,
+          'type' => 'user',
+          'image' => "#{user.image}"
+
         }
       }
 
